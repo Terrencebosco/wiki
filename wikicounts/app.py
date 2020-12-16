@@ -16,7 +16,7 @@ def create_app():
     def results():
 
         gene = [x.split(',') for x in flask.request.form.values()]
-        data = search.get_count(gene)
+        data = get_count(gene)
 
         return(flask.render_template('base.html', results=data))
 
