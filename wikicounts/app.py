@@ -1,5 +1,5 @@
 import flask
-from search_me import get_count, get_count_abc, get_count_base, get_count_word
+from .search_me import get_count, get_count_abc, get_count_base, get_count_word
 import pandas as pd
 import numpy as np
 import wikipedia
