@@ -1,1 +1,1 @@
-web: gunicorn wikicounts:app -t 120
+web: gunicorn wikicounts:APP -t 120
