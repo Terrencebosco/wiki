@@ -1,0 +1,1 @@
+web: gunicorn wikicounts:APP -t 120
